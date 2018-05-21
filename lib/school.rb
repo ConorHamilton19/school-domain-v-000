@@ -17,5 +17,6 @@ class School
         name
       end
     end
+  end
     
 end
