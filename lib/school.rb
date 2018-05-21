@@ -14,7 +14,7 @@ class School
   def grade(grade)
     @roster.collect do |year, name|
       if year = grade
-        return name
+         name
       end
     end
   end
