@@ -11,8 +11,11 @@ class School
    @roster[grade] << name
   end
   
-  def grade(grade)
+  def grade(year)
     @roster.each do |grade, name|
-      
+      if year = grade
+        name
+      end
+    end
     
 end
