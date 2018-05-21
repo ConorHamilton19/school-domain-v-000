@@ -13,8 +13,7 @@ class School
   
   def grade(year)
     @roster.find do |grade, name|
-      if year = grade
-       name
+      
       end
     end
   end
