@@ -10,5 +10,9 @@ class School
    @roster[grade] ||= []
    @roster[grade] << name
   end
+  
+  def grade(grade)
+    @roster.each do |grade, name|
+      
     
 end
