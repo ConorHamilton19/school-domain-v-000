@@ -12,9 +12,9 @@ class School
   end
   
   def grade(year)
-    @roster.each do |grade, name|
+    @roster.find do |grade, name|
       if year = grade
-        return name
+       name
       end
     end
   end
