@@ -14,7 +14,7 @@ class School
   def grade(year)
     @roster.each do |grade, name|
       if year = grade
-        name
+        return name
       end
     end
   end
