@@ -16,7 +16,10 @@ class School
   end
   
   def sort 
-    
+    sorted_hash = {}
+    @roster.each do |a,b|
+      
+    end
   end
     
 end
